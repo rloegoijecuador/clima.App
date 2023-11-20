@@ -1,0 +1,29 @@
+.weather{
+   width: 100%;
+   max-width: 350px;
+   background-color: darkslategray;
+   border-radius: 1em;
+   padding: 2em 1.5em 2.5em;
+
+}
+.weather__title{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.weather__location{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.weather__body{
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    align-items:center ;
+}
+.weather__condition{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}

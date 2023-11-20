@@ -1,0 +1,11 @@
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://pixabay.com/es/photos/%C3%A1rbol-nubes-los-campos-hierba-832079/');
+    background-size: cover;
+    background-position: center;
+    background: no-repeat;
+    background-image: url('..//tree-832079_1280.jpg');
+}
