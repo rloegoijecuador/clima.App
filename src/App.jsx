@@ -3,6 +3,7 @@ import './App.css'
 import { useEffect } from 'react' 
 import axios from 'axios' 
 import CallWeather from './components/CallWeather'
+
  
 
 function App() {
@@ -49,7 +50,7 @@ function App() {
   
   
   return (
-    <div>
+    <div className='app'>
       {
         isLoading
         ?<h2 className='app--loader'>loading...</h2>

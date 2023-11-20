@@ -2,9 +2,13 @@
 
 
 *{
+   
     box-sizing: border-box;
 }
 html{
+    
+    background-image: url('https://www.iagua.es/sites/default/files/styles/thumbnail-830x455/public/diferenciatiempoclima.jpg?itok=l1FwRJ5W');
+    background-size: cover;
     font-family: 'sans-serif',sans-serif;
 }
 body{
